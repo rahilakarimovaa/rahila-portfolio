@@ -1,9 +1,7 @@
-/* Sticky footer base */
 html, body {
   height: 100%;
 }
 
-/* Page base */
 body {
   margin: 0;
   font-family: Georgia, serif;
@@ -12,7 +10,9 @@ body {
 
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
+
 
 /* NAVBAR (TOP STRIP) */
 .navbar {
@@ -124,6 +124,11 @@ footer {
   .hero { flex-direction: column; padding: 40px 24px; text-align: center; }
   .hero-text h1 { font-size: 34px; }
 }
-
+main.hero {
+  flex: 1;
+}
+.footer {
+  margin-top: auto;
+}
 
 
