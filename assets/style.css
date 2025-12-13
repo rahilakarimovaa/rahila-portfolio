@@ -12,9 +12,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-
-
-/* NAVBAR (TOP STRIP) */
 .navbar {
   background: #f1e4df;
   padding: 18px 60px;
@@ -36,13 +33,9 @@ body {
   color: #6f7b7a;
   font-size: 18px;
 }
-
-/* MAIN grows to push footer down */
 main {
   flex: 1;
 }
-
-/* HERO (MAIN AREA) */
 .hero {
   background: #faf6f4;
   padding: 70px 80px;
@@ -64,10 +57,8 @@ main {
   line-height: 1.7;
   max-width: 650px;
   color: #3a3a3a;
-  margin: 0;
+  margin: 0px;
 }
-
-/* BUTTON */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -98,8 +89,6 @@ main {
 .btn:active {
   transform: translateY(0px);
 }
-
-/* FOOTER always at bottom because body is flex + main flex:1 */
 .site-footer,
 footer {
   background: #f1e4df;
@@ -117,8 +106,6 @@ footer {
   text-decoration: none;
   margin: 0 10px;
 }
-
-/* MOBILE */
 @media (max-width: 900px) {
   .navbar { padding: 16px 24px; }
   .hero { flex-direction: column; padding: 40px 24px; text-align: center; }
@@ -129,6 +116,39 @@ main.hero {
 }
 .footer {
   margin-top: auto;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.hero-image {
+  flex: 0 0 auto;
+  width: 320px;       /* desktop portrait size */
+  max-width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-pic {
+  width: 380%;
+  max-width: 380px;
+  height: auto;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-image { max-width: 70%; width: 70%; margin: 0 auto; }
+  .profile-pic { max-width: 220px; }
 }
 
 

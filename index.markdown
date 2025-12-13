@@ -21,6 +21,9 @@ layout: none
   </header>
 
   <main class="hero">
+    <div class="hero-image">
+      <img src="/assets/images/me.jpg" alt="Rahila Karimova" class="profile-pic">
+  </div>
     <div class="hero-text">
       <h1>Hello, World! I’m Rahila, a computer science student.</h1>
       <p>
@@ -33,6 +36,9 @@ layout: none
   </main>
 
   <footer class="footer">
+   <div class="footer-icons">
+      <a href="mailto:rkarimova25220@ada.edu.az" aria-label="Email">📩</a>
+    </div>
     <p>© 2025 Rahila Karimova</p>
   </footer>
 
