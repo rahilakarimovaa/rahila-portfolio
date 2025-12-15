@@ -6,23 +6,23 @@ layout: none
 <head>
   <meta charset="UTF-8">
   <title>Rahila Karimova</title>
-  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
 
   <header class="navbar">
     <div class="brand">Rahila Karimova</div>
     <nav class="nav-right">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Projects</a>
-      <a href="#">Achievements</a>
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      <a href="{{ '/projects/' | relative_url }}">Projects</a>
+      <a href="{{ '/achievements/' | relative_url }}">Achievements</a>
     </nav>
   </header>
 
   <main class="hero">
     <div class="hero-image">
-      <img src="/assets/images/me.jpg" alt="Rahila Karimova" class="profile-pic">
+      <img src="{{ '/assets/images/me.jpg' | relative_url }}" alt="Rahila Karimova" class="profile-pic">
   </div>
     <div class="hero-text">
       <h1>Hello, World! I’m Rahila, a computer science student.</h1>
@@ -31,16 +31,11 @@ layout: none
         currently building my skills and exploring different areas of the field.
       </p>
 
-      <a href="#projects" class="btn">Check out my projects</a>
+      <a href="{{ '/projects/' | relative_url }}" class="btn">Check out my projects</a>
     </div>
   </main>
 
   <footer class="footer">
    <div class="footer-icons">
       <a href="mailto:rkarimova25220@ada.edu.az" aria-label="Email">📩</a>
-    </div>
     <p>© 2025 Rahila Karimova</p>
-  </footer>
-
-</body>
-</html>

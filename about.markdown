@@ -1,56 +1,48 @@
 ---
 layout: none
+permalink: /about/
 ---
 
-<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About — Rahila Karimova</title>
-  <link rel="stylesheet" href="/assets/style.css">
+  <meta charset="utf-8">
+  <title>About – Rahila Karimova</title>
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
-<body class="page">
+<body>
 
   <header class="navbar">
     <div class="brand">Rahila Karimova</div>
-    <nav class="nav-right">
-      <a href="/">Home</a>
-      <a href="/about.html">About</a>
-      <a href="/#projects">Projects</a>
-      <a href="/achievements.html">Achievements</a>
+    <nav class="nav-right" aria-label="Primary navigation">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      <a href="{{ '/projects/' | relative_url }}">Projects</a>
+      <a href="{{ '/achievements/' | relative_url }}">Achievements</a>
     </nav>
   </header>
 
-  <main class="page-content">
-    <section class="about-wrap">
-      <h1 class="page-title">About</h1>
-
-      <p class="about-lead">
-        I’m Rahila Karimova. I enjoy calm, thoughtful design, meaningful work, and learning through experience.
-        I like keeping things simple, clean, and intentional.
+  <main class="hero" id="about">
+    <div class="hero-text">
+      <h1>About Me</h1>
+      <p>
+        Hi — I'm Rahila, a computer science student at ADA University. I enjoy
+        learning new technologies and working on projects that help me grow
+        as an engineer. This site includes some of my projects and achievements.
+      </p>
+      <p>
+        When I’m not coding I enjoy reading, public speaking, and learning about human-centered design.
       </p>
 
-      <div class="about-cards">
-        <div class="about-card">
-          <div class="about-card-title">Born</div>
-          <div class="about-card-text">📅 REPLACE: DD Month YYYY</div>
-        </div>
+      <a class="btn" href="{{ '/projects/' | relative_url }}">See my projects</a>
+    </div>
 
-        <div class="about-card">
-          <div class="about-card-title">Based in</div>
-          <div class="about-card-text">📍 Baku, Azerbaijan</div>
-        </div>
-
-        <div class="about-card">
-          <div class="about-card-title">Interests</div>
-          <div class="about-card-text">☕ cafes • 📷 photos • 🎧 music • ✈️ travel</div>
-        </div>
-      </div>
-    </section>
   </main>
 
-  <footer class="site-footer">
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer-icons">
+      <a href="mailto:rkarimova25220@ada.edu.az" aria-label="Email">📩</a>
+    </div>
     <p>© 2025 Rahila Karimova</p>
   </footer>
 
