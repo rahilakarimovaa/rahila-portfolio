@@ -16,7 +16,6 @@ layout: none
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ '/about/' | relative_url }}">About</a>
       <a href="{{ '/projects/' | relative_url }}">Projects</a>
-      <a href="{{ '/achievements/' | relative_url }}">Achievements</a>
     </nav>
   </header>
 
@@ -38,4 +37,13 @@ layout: none
   <footer class="footer">
    <div class="footer-icons">
       <a href="mailto:rkarimova25220@ada.edu.az" aria-label="Email">📩</a>
+        <a
+    href="https://github.com/rahilakarimovaa/rahila-portfolio"
+    target="_blank"
+    rel="noopener"
+    class="github-icon"
+    aria-label="GitHub repository"
+  >
+    🐙
+  </a>
     <p>© 2025 Rahila Karimova</p>
