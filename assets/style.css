@@ -61,7 +61,7 @@ main {
 }
 
 #about .btn {
-  margin: 18px auto 0 auto;
+  margin: 18px auto 0;
 }
 
 
@@ -117,11 +117,13 @@ main {
               box-shadow 100ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-footer,
-footer {
+footer,
+.footer {
   background: #f1e4df;
   padding: 26px 20px;
   text-align: center;
   margin: 0;
+  margin-top: auto;
 }
 
 .footer-icons {
@@ -140,12 +142,7 @@ footer {
   .hero-image { max-width: 70%; width: 70%; margin: 0 auto; }
   .profile-pic { max-width: 220px; }
 }
-main.hero {
-  flex: 1;
-}
-.footer {
-  margin-top: auto;
-}
+
 
 .hero-image {
   flex: 0 0 auto;
