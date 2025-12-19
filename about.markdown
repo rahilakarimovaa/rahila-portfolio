@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: default
 title: About
 permalink: /about/
 ---
@@ -25,7 +25,7 @@ permalink: /about/
   <div class="hero-text about-wrap">
     <h1 class="about-header">About Me</h1>
 
-    <p class="info-subtitle">
+    <p class="about-subtitle">
       I am a first-year Computer Science student at ADA University, developing my skills through coursework and personal projects.
     </p>
 
@@ -70,7 +70,7 @@ permalink: /about/
     🐙
   </a>
       <a
-    href="https://www.codecademy.com/profiles/rahilakarimovaa"
+    href="https://www.codecademy.com/profiles/blog9026021951"
     target="_blank"
     rel="noopener"
     class="codecademy-icon"

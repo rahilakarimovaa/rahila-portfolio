@@ -62,7 +62,7 @@ permalink: /projects/
     🐙
   </a>
       <a
-    href="https://www.codecademy.com/profiles/rahilakarimovaa"
+    href="https://www.codecademy.com/profiles/blog9026021951"
     target="_blank"
     rel="noopener"
     class="codecademy-icon"
