@@ -1,5 +1,6 @@
 ---
 layout: none
+title: About
 permalink: /about/
 ---
 
@@ -21,21 +22,39 @@ permalink: /about/
   </header>
 
   <main class="hero" id="about">
-    <div class="hero-text">
-      <h1>About Me</h1>
-      <p>
-        Hi — I'm Rahila, a computer science student at ADA University. I enjoy
-        learning new technologies and working on projects that help me grow
-        as an engineer. This site includes some of my projects and achievements.
-      </p>
-      <p>
-        When I’m not coding I enjoy reading, public speaking, and learning about human-centered design.
-      </p>
+  <div class="hero-text about-wrap">
+    <h1 class="about-header">About Me</h1>
 
-      <a class="btn" href="{{ '/projects/' | relative_url }}">See my projects</a>
-    </div>
+    <p class="about-subtitle">
+      I am a first-year Computer Science student at ADA University, developing my skills through coursework and personal projects.
+    </p>
 
-  </main>
+    <section class="about-grid">
+      <div class="about-card">
+        <h3>Education</h3>
+        <p>ADA University — first-year Bachelor student in Computer Science.</p>
+      </div>
+
+      <div class="about-card">
+        <h3>Scores</h3>
+        <p>SAT 1380 · IELTS 7.0 · DIM 230</p>
+      </div>
+
+      <div class="about-card">
+        <h3>Activities</h3>
+        <p>Volunteering, academic participation, and personal projects.</p>
+      </div>
+
+      <div class="about-card">
+        <h3>Hobbies</h3>
+        <p>Drawing, swimming, travelling.</p>
+      </div>
+    </section>
+
+    <a class="btn" href="{{ '/projects/' | relative_url }}">See my projects</a>
+  </div>
+</main>
+
 
 
   <footer class="footer" role="contentinfo">
@@ -49,6 +68,15 @@ permalink: /about/
     aria-label="GitHub repository"
   >
     🐙
+  </a>
+      <a
+    href="https://www.codecademy.com/profiles/rahilakarimovaa"
+    target="_blank"
+    rel="noopener"
+    class="codecademy-icon"
+    aria-label="CodeAcademy profile"
+  >
+    💻
   </a>
     </div>
     <p>© 2025 Rahila Karimova</p>
