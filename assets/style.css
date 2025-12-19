@@ -64,6 +64,21 @@ main {
   margin: 18px auto 0;
 }
 
+#projects.hero {
+  padding: 60px 60px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  text-align: center;
+}
+
+#projects .hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 .hero-text h1 {
   font-size: 54px;
@@ -199,6 +214,8 @@ footer,
 }
 
 
+
+
 .info-card {
   background: #ffffff;
   border-radius: 20px;
@@ -220,8 +237,6 @@ footer,
   color: #3a3a3a;
   text-align: center;
 }
-
-
 @media (max-width: 900px) {
   .about-header {
     font-size: 36px;
@@ -233,7 +248,62 @@ footer,
 }
 
 
+#projects .about-wrap {
+  max-width: 1100px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin: 26px auto 28px auto;
+  max-width: 1100px;
+}
+
+.project-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 26px 22px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-card h3 {
+  margin: 0 0 12px 0;
+  font-size: 22px;
+  color: #5b2c6f;
+  text-align: center;
+}
+
+.project-card p {
+  margin: 0 0 20px 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #3a3a3a;
+  text-align: center;
+  flex: 1;
+}
 
 
+.project-image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: left center;
+  display: block;
+  margin-top: auto;
+}
 
 
+@media (max-width: 900px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #projects.hero {
+    padding: 40px 24px;
+  }
+}
