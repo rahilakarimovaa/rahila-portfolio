@@ -46,4 +46,13 @@ layout: none
   >
     🐙
   </a>
+      <a
+    href="https://www.codecademy.com/profiles/blog9026021951"
+    target="_blank"
+    rel="noopener"
+    class="codecademy-icon"
+    aria-label="CodeAcademy profile"
+  >
+    💻
+  </a>
     <p>© 2025 Rahila Karimova</p>
