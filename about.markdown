@@ -25,7 +25,7 @@ permalink: /about/
   <div class="hero-text about-wrap">
     <h1 class="about-header">About Me</h1>
 
-    <p class="about-subtitle">
+    <p class="info-subtitle">
       I am a first-year Computer Science student at ADA University, developing my skills through coursework and personal projects.
     </p>
 
@@ -35,17 +35,17 @@ permalink: /about/
         <p>ADA University — first-year Bachelor student in Computer Science.</p>
       </div>
 
-      <div class="about-card">
+      <div class="info-card">
         <h3>Scores</h3>
         <p>SAT 1380 · IELTS 7.0 · DIM 230</p>
       </div>
 
-      <div class="about-card">
+      <div class="info-card">
         <h3>Activities</h3>
         <p>Volunteering, academic participation, and personal projects.</p>
       </div>
 
-      <div class="about-card">
+      <div class="info-card">
         <h3>Hobbies</h3>
         <p>Drawing, swimming, travelling.</p>
       </div>
