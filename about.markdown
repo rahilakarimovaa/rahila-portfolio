@@ -30,7 +30,7 @@ permalink: /about/
     </p>
 
     <section class="about-grid">
-      <div class="about-card">
+      <div class="info-card">
         <h3>Education</h3>
         <p>ADA University — first-year Bachelor student in Computer Science.</p>
       </div>
