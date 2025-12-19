@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: none
 title: About
 permalink: /about/
 ---
@@ -25,7 +25,7 @@ permalink: /about/
   <div class="hero-text about-wrap">
     <h1 class="about-header">About Me</h1>
 
-    <p class="about-subtitle">
+    <p class="info-subtitle">
       I am a first-year Computer Science student at ADA University, developing my skills through coursework and personal projects.
     </p>
 
